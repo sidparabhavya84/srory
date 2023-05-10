@@ -36,7 +36,6 @@ function Story() {
             designation: ""
         })
     }
-
     return (
         <>
             <div className='d-flex'>

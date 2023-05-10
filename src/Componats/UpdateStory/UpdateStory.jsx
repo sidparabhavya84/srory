@@ -33,7 +33,6 @@ function UpdateStory() {
     return (
         <>
             <div className='d-flex'>
-
                 <div className='col-6 p-2'>
                     <div className='form-wrapper d-flex justify-content-center align-items-center'>
                         <Container className='wrapper'>

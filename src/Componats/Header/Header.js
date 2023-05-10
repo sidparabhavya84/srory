@@ -25,11 +25,6 @@ function Header(props) {
                                         CreatStory
                                     </NavLink>
                                 </li>
-                                {/* <li className='p-2 m-3'>
-                                    <NavLink to='/updateStory' className='text-decoration-none text-white'>
-                                        UpdateStory
-                                    </NavLink>
-                                </li> */}
                                 <li className='p-2 m-3'>
                                     <NavLink className='text-decoration-none text-white'>
                                         Contact Us

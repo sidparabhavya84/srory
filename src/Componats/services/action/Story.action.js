@@ -70,7 +70,6 @@ export const DeleteStory = () => {
     }
 }
 export const DeleteStoryAsync = (id) => {
-
     return async dispatch => {
         dispatch(isloading())
         const res = await Api.delete(`/Story/${id}`)

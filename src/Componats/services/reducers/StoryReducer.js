@@ -6,7 +6,6 @@ const initialState = {
     isLoading: false,
     isEdit: false
 }
-
 const StoryReducer = (state = initialState, action) => {
 
     switch(action.type) {

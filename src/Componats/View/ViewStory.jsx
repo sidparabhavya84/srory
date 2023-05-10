@@ -3,9 +3,7 @@ import './ViewStory.css'
 import { Button, Container, Card, Col, Row } from 'react-bootstrap'
 import { useNavigate } from 'react-router-dom'
 import { useDispatch, useSelector } from 'react-redux'
-import { PenFill, TrashFill } from 'react-bootstrap-icons'
 import { DeleteStoryAsync, getStoryAsync, getStorysAsync } from '../services/action/Story.action'
-
 
 function ViewStory() {
 
