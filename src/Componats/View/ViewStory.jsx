@@ -6,7 +6,6 @@ import { useDispatch, useSelector } from 'react-redux'
 import { DeleteStoryAsync, getStoryAsync, getStorysAsync } from '../services/action/Story.action'
 
 function ViewStory() {
-
     const { storys, isLoading, isEdit } = useSelector(state => state.StoryReducer)
     const navigate = useNavigate()
     const dispatch = useDispatch()

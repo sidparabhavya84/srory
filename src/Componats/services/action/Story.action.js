@@ -69,6 +69,7 @@ export const DeleteStory = () => {
         type : DELETE_STORY
     }
 }
+
 export const DeleteStoryAsync = (id) => {
     return async dispatch => {
         dispatch(isloading())

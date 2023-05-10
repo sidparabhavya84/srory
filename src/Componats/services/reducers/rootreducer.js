@@ -4,4 +4,5 @@ import StoryReducer from "./StoryReducer";
 const rootReducer = combineReducers ({
     StoryReducer
 })
+
 export default rootReducer;
