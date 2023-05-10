@@ -29,6 +29,7 @@ function UpdateStory() {
         dispatch(UpdateStoryAsync(data))
         navigate("/")
     }
+    
     return (
         <>
             <div className='d-flex'>

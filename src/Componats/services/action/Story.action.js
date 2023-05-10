@@ -70,6 +70,7 @@ export const DeleteStory = () => {
     }
 }
 
+
 export const DeleteStoryAsync = (id) => {
     return async dispatch => {
         dispatch(isloading())

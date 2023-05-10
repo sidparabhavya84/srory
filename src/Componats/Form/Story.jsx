@@ -47,6 +47,7 @@ function Story() {
                             <h1>
                                 Create Story :-
                             </h1>
+
                             <Form onSubmit={(e) => { handleSubmit(e) }}>
 
                                 <Form.Group className="mb-3" >
